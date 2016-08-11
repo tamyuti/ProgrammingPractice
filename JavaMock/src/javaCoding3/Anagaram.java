@@ -19,7 +19,7 @@ public class Anagaram {
 	            char[] anagramArray = AnagramWithoutSpace.toLowerCase().toCharArray();
 	            Arrays.sort(wordArray);
 	            Arrays.sort(anagramArray);
-	            if(Arrays.equals(wordArray, wordArray)){
+	            if(Arrays.equals(wordArray, anagramArray )){
 	            	isAnagram=true;
 	            }
 	        }
