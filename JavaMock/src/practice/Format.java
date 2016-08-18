@@ -3,7 +3,7 @@
  *3 4 5 5 5
  *2 3 4 5 5
  *1 2 3 4 5*/
-package mock;
+package practice;
 
 public class Format {
 	public static void main(String[] args) {

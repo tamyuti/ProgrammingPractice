@@ -1,4 +1,4 @@
-package mock;
+package practice;
 
 public class LineCount {
 	public static int getLineCount(String text){

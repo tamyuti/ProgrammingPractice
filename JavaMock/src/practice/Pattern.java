@@ -5,7 +5,7 @@
 78910*/
 
 
-package mock;
+package practice;
 
 public class Pattern {
 	public static void main(String[] args) {

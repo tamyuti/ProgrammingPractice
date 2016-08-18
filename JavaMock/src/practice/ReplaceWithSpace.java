@@ -2,7 +2,7 @@
  input:www.space%20.com
  Output:www.space .com*/
 
-package mock;
+package practice;
 
 public class ReplaceWithSpace {
 	public static void main(String[] args) {

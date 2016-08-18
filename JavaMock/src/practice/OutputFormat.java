@@ -4,7 +4,7 @@
 123
 1234*/
 
-package mock;
+package practice;
 
 public class OutputFormat {
 	public static void main(String[] args) {

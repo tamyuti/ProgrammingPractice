@@ -9,15 +9,18 @@ import java.util.List;
 
 public class ReverseStringByWords {
 	
+	
 	public static void rev1(String s){
 		String[] splittedWords=s.split(" ");
 		int Stringlength=(splittedWords.length)-1;
 		for(int i=Stringlength;i>=0;i--){
 		System.out.print(splittedWords[i]);
 		System.out.print(" ");
+		
 		}
 		
 	}
+	public void test(){}
 	public static void rev2(String s){
 		//reverse the string
 		String reverse="";

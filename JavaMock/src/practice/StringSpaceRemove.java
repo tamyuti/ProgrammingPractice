@@ -1,4 +1,4 @@
-package mock;
+package practice;
 
 public class StringSpaceRemove {
 	public static void main(String[] args) {

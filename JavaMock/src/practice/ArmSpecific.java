@@ -1,5 +1,5 @@
 //print armstrong between 1 to 1000
-package mock;
+package practice;
 
 public class ArmSpecific {
 	

@@ -1,10 +1,13 @@
 package javaCoding4;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class HighestOccurenceChar {
+public class HighestOccurenceChar{
 	
 	public static void printHighestOccurenceChar(String s){
 		char[] c=s.toCharArray();
@@ -17,15 +20,25 @@ public class HighestOccurenceChar {
 				map.put(c[i], 1);
 			}
 		}
+		
+		List<Integer> list=new ArrayList<Integer>();
+		list.addAll(map.values());
+		Collections.sort(list);
+		Object largestValue;
+		int size=list.size()-1;
+		largestValue=list.get(size);
 		for (Entry<Character, Integer> entry : map.entrySet()) {
-		    System.out.println(entry);
+		    if(entry.getValue()==largestValue){
+		    	System.out.println(entry.getKey() + " "+ entry.getValue());
+		    }
 		}	
 		}
-		
 	
 	public static void main(String[] args) {
-		String s="java";
+		String s="hiiiihelllooooooo";
 		printHighestOccurenceChar(s);
 	}
+	
+	
 
 }

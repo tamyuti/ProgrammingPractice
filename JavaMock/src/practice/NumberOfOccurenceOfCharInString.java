@@ -1,4 +1,4 @@
-package mock;
+package practice;
 
 public class NumberOfOccurenceOfCharInString {
 	public static void main(String[] args) {

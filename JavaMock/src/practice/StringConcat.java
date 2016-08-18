@@ -1,5 +1,5 @@
 //concat at middle of string
-package mock;
+package practice;
 
 public class StringConcat {
 	public static void main(String[] args) {

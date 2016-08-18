@@ -1,7 +1,7 @@
 /*Write Java Program to print the name in alphabetical order:
 Example: myname
 Output: aemmny*/
-package mock;
+package practice;
 
 public class PrintAlphabeticalOrder {
 

@@ -1,4 +1,4 @@
-package mock;
+package practice;
 
 public class Static {
 	public static String staticVar = "You can access me!!!";

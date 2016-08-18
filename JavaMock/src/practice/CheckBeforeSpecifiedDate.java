@@ -1,5 +1,5 @@
 //check if date is before specified date
-package mock;
+package practice;
 
 import java.util.Date;
 

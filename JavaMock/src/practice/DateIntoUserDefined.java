@@ -1,5 +1,5 @@
 //WJP to convert date into user defined format
-package mock;
+package practice;
 
 import java.text.DateFormat;
 import java.text.ParseException;
